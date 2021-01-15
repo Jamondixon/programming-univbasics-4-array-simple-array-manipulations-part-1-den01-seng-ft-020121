@@ -15,8 +15,9 @@ def using_pop(continents)
   continents.pop
 end
 
-def pop_with_args(dog_breeds)
+def pop_with_args(dog_breeds, small_dogs)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  small_dogs = ["Chihuahua", "Shiba Inu"]
   dog_breeds.pop(2)
 end
 
